@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #95a5a6; 
+}
+
+input[type="range"]::-moz-range-track {
+  background-color: #9b59b6; 
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: #9b59b6; 
+}
+
+input[type="range"]::-moz-range-thumb {
+  background-color: #9b59b6; 
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+form.config {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.form-item {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.description {
+  font-size: 12px;
+  color: #888;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #9b59b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9b59b6;
+}
+
+.simulation {
+  margin: 20px auto;
+  text-align: center;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+#timetext,
+#proptimetext {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+#packet {
+  fill: #daf4ff; 
+  stroke: none;
+}
+
+g.sendrec .top {
+  fill: #9b59b6 !important; 
+}
+
+g.sendrec .side {
+  fill: #9b59b6 !important; 
+}
+
+g.sendrec .front {
+  fill: #9b59b6 !important; 
+}
+
+rect#rect3851 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+}
